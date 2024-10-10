@@ -9,6 +9,7 @@ export default function Counter (){
     const decrement = ()=>{
         count--;
         setCount(count)
+        //happy
 
     }
     return <><p>the count is : {count}</p>
