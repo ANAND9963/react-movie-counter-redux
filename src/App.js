@@ -1,13 +1,15 @@
 
 import './App.css';
+import Bears from './Bears/Bears';
 import Counter from './components/Counter';
 import Movies from './components/Movies';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Counter />
-        <Movies/>
+        {/* <Counter />
+        <Movies/> */}
+        <Bears/>
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
